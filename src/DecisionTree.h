@@ -22,8 +22,10 @@ public:
 	// convenience functions
 	TreeNode* AddNode(TreeNode* parent, TreeNode* child_node, TreeNodeType type);
 	void Display();
-
+	void Update();
+	
 	std::string MakeDecision(); // in order traversal
+
 	
 private:
 	Agent* m_agent;
