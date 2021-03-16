@@ -46,6 +46,9 @@
     <Filter Include="Decision\Agents">
       <UniqueIdentifier>{2dfed1f9-8dd1-4958-ae8b-b690f74ab8cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Decision\Core Components">
+      <UniqueIdentifier>{134c0998-20f1-41f7-b91a-02c5d19a2ef3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\StartScene.cpp">
@@ -150,9 +153,6 @@
     <ClCompile Include="..\src\ship.cpp">
       <Filter>Decision\Agents</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Agent.cpp">
-      <Filter>Decision</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\AttackAction.cpp">
       <Filter>Decision\Actions</Filter>
     </ClCompile>
@@ -173,6 +173,12 @@
     </ClCompile>
     <ClCompile Include="..\src\CloseCombatCondition.cpp">
       <Filter>Decision\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Agent.cpp">
+      <Filter>Decision\Core Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DecisionTree.cpp">
+      <Filter>Decision</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -329,18 +335,6 @@
     <ClInclude Include="..\src\ship.h">
       <Filter>Decision\Agents</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\Agent.h">
-      <Filter>Decision</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\TreeNode.h">
-      <Filter>Decision</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ConditionNode.h">
-      <Filter>Decision</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ActionNode.h">
-      <Filter>Decision</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\PatrolAction.h">
       <Filter>Decision\Actions</Filter>
     </ClInclude>
@@ -361,6 +355,24 @@
     </ClInclude>
     <ClInclude Include="..\src\CloseCombatCondition.h">
       <Filter>Decision\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeNode.h">
+      <Filter>Decision\Core Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ActionNode.h">
+      <Filter>Decision\Core Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Agent.h">
+      <Filter>Decision\Core Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConditionNode.h">
+      <Filter>Decision\Core Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DecisionTree.h">
+      <Filter>Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeNodeType.h">
+      <Filter>Enums</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
