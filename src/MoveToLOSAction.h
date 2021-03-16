@@ -3,7 +3,7 @@
 #define __MOVE_TO_LOS_ACTION__
 #include "ActionNode.h"
 
-// Interface
+
 class MoveToLOSAction : public ActionNode
 {
 public:

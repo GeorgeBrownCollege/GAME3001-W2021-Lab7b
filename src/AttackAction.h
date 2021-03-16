@@ -3,7 +3,6 @@
 #define __ATTACK_ACTION__
 #include "ActionNode.h"
 
-// Interface
 class AttackAction : public ActionNode
 {
 public:

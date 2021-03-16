@@ -3,7 +3,7 @@
 #define __MOVE_TO_PLAYER_ACTION__
 #include "ActionNode.h"
 
-// Interface
+
 class MoveToPlayerAction : public ActionNode
 {
 public:

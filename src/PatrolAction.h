@@ -3,7 +3,7 @@
 #define __PATROL_ACTION__
 #include "ActionNode.h"
 
-// Interface
+
 class PatrolAction : public ActionNode
 {
 public:
